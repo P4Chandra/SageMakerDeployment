@@ -60,8 +60,9 @@ def output_fn(prediction_output, accept):
 def predict_fn(input_data, model):
     print('Inferring sentiment of input data.')
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    
+    #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cpu")    
+
     if model.word_dict is None:
         raise Exception('Model has not been loaded properly, no word_dict.')
     
@@ -69,9 +70,8 @@ def predict_fn(input_data, model):
     #       You should produce two variables:
     #         data_X   - A sequence of length 500 which represents the converted review
     #         data_len - The length of the review
-
-    data_X = None
-    data_len = None
+    data_X=review_to_words(input_data)
+    data_X,data_len = convert_and_pad_data(model.word_dict, data_X)
 
     # Using data_X and data_len we construct an appropriate input tensor. Remember
     # that our model expects input data of the form 'len, review[500]'.
@@ -86,7 +86,9 @@ def predict_fn(input_data, model):
 
     # TODO: Compute the result of applying the model to the input data. The variable `result` should
     #       be a numpy array which contains a single integer which is either 1 or 0
-
-    result = None
-
+    with torch.no_grad():
+        output = model.forward(data)
+    output = output.to('cpu')   
+    result = np.round(output.numpy())
+    #print('Prediction value, pre-rounding: {:.6f}'.format(result))
     return result
