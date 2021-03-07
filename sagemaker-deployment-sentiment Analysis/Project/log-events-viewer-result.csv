@@ -1,0 +1,160 @@
+timestamp,message,logStreamName
+1.61509E+12,bash: cannot set terminal process group (-1): Inappropriate ioctl for device,AllTraffic/i-062895a22b46f9452
+1.61509E+12,bash: no job control in this shell,AllTraffic/i-062895a22b46f9452
+1.61509E+12,[2021-03-07 03:43:21 +0000] [23] [INFO] Starting gunicorn 19.9.0,AllTraffic/i-062895a22b46f9452
+1.61509E+12,[2021-03-07 03:43:21 +0000] [23] [INFO] Listening at: unix:/tmp/gunicorn.sock (23),AllTraffic/i-062895a22b46f9452
+1.61509E+12,[2021-03-07 03:43:21 +0000] [23] [INFO] Using worker: gevent,AllTraffic/i-062895a22b46f9452
+1.61509E+12,[2021-03-07 03:43:21 +0000] [30] [INFO] Booting worker with pid: 30,AllTraffic/i-062895a22b46f9452
+1.61509E+12,[2021-03-07 03:43:21 +0000] [31] [INFO] Booting worker with pid: 31,AllTraffic/i-062895a22b46f9452
+1.61509E+12,[2021-03-07 03:43:21 +0000] [32] [INFO] Booting worker with pid: 32,AllTraffic/i-062895a22b46f9452
+1.61509E+12,[2021-03-07 03:43:21 +0000] [36] [INFO] Booting worker with pid: 36,AllTraffic/i-062895a22b46f9452
+1.61509E+12,Processing /opt/ml/code,AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,  Downloading https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl (10.0MB),AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,  Downloading https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl (19.9MB),AllTraffic/i-062895a22b46f9452
+1.61509E+12,Processing /opt/ml/code,AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"  Downloading https://files.pythonhosted.org/packages/92/75/ce35194d8e3022203cca0d2f896dbb88689f9b3fce8e9f9cff942913519d/nltk-3.5.zip (1.4MB)
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl (115kB)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting html5lib (from -r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl (112kB)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl (510kB)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting joblib (from nltk->-r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,  Downloading https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl (294kB),AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting regex (from nltk->-r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting numpy (from -r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl
+  Downloading https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz (694kB)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting nltk (from -r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/92/75/ce35194d8e3022203cca0d2f896dbb88689f9b3fce8e9f9cff942913519d/nltk-3.5.zip",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/f8/3e/2730d0effc282960dbff3cf91599ad0d8f3faedc8e75720fdf224b31ab24/tqdm-4.59.0-py2.py3-none-any.whl (74kB)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting webencodings (from html5lib->-r requirements.txt (line 5)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting html5lib (from -r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Building wheels for collected packages: nltk, predict, regex
+  Running setup.py bdist_wheel for nltk: started",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting regex (from nltk->-r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"  Running setup.py bdist_wheel for nltk: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/ae/8c/3f/b1fe0ba04555b08b57ab52ab7f86023639a526d8bc8d384306
+  Running setup.py bdist_wheel for predict: started
+  Using cached https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-udb_dnc_/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Processing /opt/ml/code,AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/f8/3e/2730d0effc282960dbff3cf91599ad0d8f3faedc8e75720fdf224b31ab24/tqdm-4.59.0-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Building wheels for collected packages: nltk, predict, regex
+  Running setup.py bdist_wheel for nltk: started
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"  Running setup.py bdist_wheel for nltk: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/ae/8c/3f/b1fe0ba04555b08b57ab52ab7f86023639a526d8bc8d384306
+  Running setup.py bdist_wheel for predict: started",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-nkvdn8ps/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started
+  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting regex (from nltk->-r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Processing /opt/ml/code
+  Using cached https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/f8/3e/2730d0effc282960dbff3cf91599ad0d8f3faedc8e75720fdf224b31ab24/tqdm-4.59.0-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Building wheels for collected packages: predict, regex
+  Running setup.py bdist_wheel for predict: started
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-u0xvvpbf/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl,AllTraffic/i-062895a22b46f9452
+1.61509E+12,Processing /opt/ml/code,AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,  Using cached https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl,AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting regex (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,  Using cached https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz,AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting tqdm (from nltk->-r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,  Using cached https://files.pythonhosted.org/packages/f8/3e/2730d0effc282960dbff3cf91599ad0d8f3faedc8e75720fdf224b31ab24/tqdm-4.59.0-py2.py3-none-any.whl,AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Building wheels for collected packages: predict, regex
+  Running setup.py bdist_wheel for predict: started
+  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Processing /opt/ml/code,AllTraffic/i-062895a22b46f9452
+1.61509E+12,"  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-qojjuk73/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"  Running setup.py bdist_wheel for regex: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/27/f6/66/a4243e485a0ebc73dc59033ae26c48e82526f77dbfe158ac59",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Successfully built nltk predict regex,AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Installing collected packages: numpy, pytz, pandas, joblib, regex, tqdm, nltk, soupsieve, beautifulsoup4, webencodings, html5lib, predict
+  Found existing installation: numpy 1.15.4",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,Collecting html5lib (from -r requirements.txt (line 5)),AllTraffic/i-062895a22b46f9452
+1.61509E+12,"  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl
+    Uninstalling numpy-1.15.4:",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl",AllTraffic/i-062895a22b46f9452
+1.61509E+12,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-062895a22b46f9452
